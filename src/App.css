@@ -1,3 +1,8 @@
+/*
+Colors
+Blue: #3498db
+*/
+
 .App {
   text-align: center;
 }
@@ -35,4 +40,47 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+section {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%
+}
+
+.btn {
+  border: 1px solid #3498db;
+  border-radius: 8px;
+  margin: 10 auto;
+  width: 80%;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #3498db;
+  color: #fff;
+}
+
+.card {
+  border-radius: 8px;
+  color: #fff;
+  margin: 10 auto;
+  background-color: #3498db;
+  height: 25vh;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  position: relative;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
